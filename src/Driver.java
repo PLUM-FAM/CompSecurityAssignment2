@@ -71,6 +71,8 @@ public class Driver
     /*
     *   outputRecord takes a record from the overall data and a record number and prints out the specific
     *   name, card number, expiration date, cvc code etc that we are looking for.
+    *   
+    *   uses many implementations of .substring() to get each field.
     */        
     public static void outputRecord(String data, int recordNumber)
     {
